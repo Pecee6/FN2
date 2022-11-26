@@ -22,13 +22,13 @@ console.log (HoursToMars + " Hours");
 let DaysToMars = HoursToMars / 24 ;
 console.log (DaysToMars + " Days");
 
-console.log (ShuttleName + " will take " + DaysToMars + " days to reach Mars.");
+console.log (ShuttleName + " will take " + Math.round(DaysToMars) + " days to reach Mars.");
 
 let MilesToMoon = DistanceToMoon * MilesPerKm;
 console.log (MilesToMoon + " Milles");
 
 let HoursToMoon = MilesToMoon / ShuttleSpeed;
-console.log (HoursToMoon+ " Hours");
+console.log (HoursToMoon+ " Days");
 
 let DaysToMoon= HoursToMoon / 24;
 console.log (DaysToMoon + " Days")
